@@ -5,13 +5,14 @@
 
 
 # Пользователь в цикле вводит 10 цифр. Найти количество введеных пользователем цифр 5.
-# ent = []
-# sum = 0
-# for i in range(10):
-#     ent.append(int(input('enter number')))
-#     if ent[i] == 5:
-#         sum += 1
-# print
+ent = []
+s_ = 0
+for i in range(10):
+    ent.append(int(input('enter number')))
+    if ent[i] == 5:
+        s_ += 1
+print('пользователь ввел количество пятёрок {} из десяти надуманных чисел'.format(s_))
+
 
 # Найти произведение ряда чисел от 1 до 10. Полученный результат вывести на экран.
 # prod = 1
@@ -37,18 +38,20 @@
 # print(prod)
 
 # Найти максимальную цифру в числе
-# max = 0
+# maxi = 0
 # num = input('введите число: ')
 # for i in range(len(num)):
-#     if (int(num[i]) > max):
-#         max = int(num[i])
-# print('максимальное число = ', max)
+#     if (int(num[i]) > maxi):
+#         maxi = int(num[i])
+# print('максимальное число = ', maxi)
 
 
 # Найти количество цифр 5 в числе
-num = input('введите число: ')
-count = 0
-for i in range(len(num)):
-    if int(num[i]) == 5:
-        count += 1
-print('количество пятёрок в числе = ', count)
+# num = input('введите число: ')
+# count = 0
+# for i in range(len(num)):
+#     if int(num[i]) == 5:
+#         count += 1
+# print('количество пятёрок в числе = ', count)
+
+
